@@ -727,10 +727,10 @@ defineEmits<{
   line-height: 14.5px;
   letter-spacing: 0.4px;
   color: #343a40;
-  height: 28px;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
   overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: pre-wrap;
 }
 
 .more-link {
